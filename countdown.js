@@ -1,5 +1,5 @@
 // Cài đặt thời gian đếm ngược (YYYY, MM (0-11), DD, HH, MM, SS)
-const targetDate = new Date(2025, 2, 9, 0, 0, 0).getTime();
+const targetDate = new Date(2025, 2, 17, 0, 0, 0).getTime();
 
 function updateCountdown() {
     const now = new Date().getTime();
